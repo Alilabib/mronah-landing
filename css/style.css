@@ -59,6 +59,16 @@ img{
     border-bottom: 2px solid #fff;
 }
 
+.navbar a.lang{
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.navbar a.lang:hover{
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
 .navbar .flex{
     justify-content: space-between;
 }
