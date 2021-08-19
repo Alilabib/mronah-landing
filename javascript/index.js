@@ -17,3 +17,11 @@ document.getElementById('lang').addEventListener('click',function(e){
         }
     }
 });
+
+
+// var loader = document.getElementById('loader');
+// function loadfun(){
+//     setTimeout(() => {
+//         loader.style.display = 'none';
+//     }, 300);
+// }
