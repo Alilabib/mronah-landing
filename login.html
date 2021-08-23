@@ -10,17 +10,26 @@
 </head>
 <body>
     <!-- Navbar -->
-    <div class="navbar">
-        <div class="container flex">
-            <h1 class="logo">Mronah</h1>
+    <div class="navbar ">
+        <div class="container flex" style="max-width: 1400px;">
+            <div style="display: flex;">
+            
+                <img src="./images/capture.PNG" style="width: 60px;
+                height: 60px;
+                border-radius: 20%;
+                ">
+        
+                <h1 class="logo " style=" margin: 0;padding: 10px;">Mronah</h1>
+               
+            </div>
+            
             <ul>
                 <li> <a href="index.html"> Home  </a> </li>
-                <!-- <li> <a href="blogs.html">Blog </a> </li> -->
+                <li> <a href="blogs.html">Blog </a> </li>
                 <!-- <li> <a href="contact.html">Contact </a> </li> -->
                 <li> <a href="login.html">Login </a> </li>
                 <li> <a href="signup.html">Register </a> </li>
                 <li> <a href="javascript:;" class="lang" id="lang"> AR </a> </li>
-
 
             </ul>
         </div>
@@ -28,41 +37,24 @@
     <!--Head-->
      <!-- Head -->
      <section class="docs-head bg-primary py-3">
-        <div class="container grid">
+        <div class="container grid" style="max-width: 1400px;">
             <div>
                 <h1 class="xl">Login</h1>
                 <p class="lead">
                     Login Again And Check Your Orders Status
                 </p>
             </div>
-            <img src="images/mronah_en.png" alt="" id="logo">
+            <img src="images/services_3.svg" alt="" id="logo">
         </div>
     </section>
 
     <!-- Docs main -->
     <section class="docs-main my-4">
         <div class="container grid">
-            <div class="card bg-light p-3">
-                <h3 class="my-2">Dashboard</h3>
-                <nav>
-                    <ul>
-                        <li><a class="text-primary" href="#">Home Page</a></li>
-                        <li><a href="#">Saper Orders</a></li>
-                        <li><a href="#">shipment Orders</a></li>
-                    </ul>
-                </nav>
-
-                <h3 class="my-2">Addtions</h3>
-                <nav>
-                    <ul>
-                        <li><a href="#">Upload Attachments</a></li>
-							<li><a href="#">Chat with Admins</a></li>
-							<li><a href="#">Upload Attachments</a></li>
-							<li><a href="#">Check Orders Status </a></li>
-                    </ul>
-                </nav>
+            <div style="min-height: 400px">
+         
             </div>
-            <div class=" form-card card">
+            <div class=" form-card card" style="max-width: 530px" >
                 <form class="login">
                     <h2>Enter your Data</h2>
 
@@ -73,6 +65,7 @@
                         <input type="password" name="password" placeholder="Password">
                     </div>
                     <input type="submit" value="Login" class="btn btn-primary"> 
+                    <a href="#" style="float: right;"> Forget Password </a>
                 </form>
 
             </div>
